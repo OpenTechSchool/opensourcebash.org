@@ -1,41 +1,41 @@
 -
-  date: "2014-10-24"
+  date: "2016-09-17"
   dateReadable: "Event Schedule"
   tracks:
     - {title: "Stage", color: "#90be4e"}
   timeslots:
-    - {
-    	startTime: "19:20",
-    	endTime: "19:30",
-    	sessionIds: [001]
-    }
-    - {
-        startTime: "19:30",
-        endTime: "19:55",
-        sessionIds: [101]
-    }
-    - {
-    	startTime: "19:55",
-    	endTime: "20:00",
-    	sessionIds: [002]
-    }
-    - {
-        startTime: "20:00",
-        endTime: "20:25",
-        sessionIds: [102]
-    }
-    - {
-        startTime: "20:25",
-        endTime: "21:00",
-        sessionIds: [003]
-    }
-    - {
-        startTime: "21:00",
-        endTime: "21:25",
-        sessionIds: [103]
-    }
-    - {
-        startTime: "21:25",
-        endTime: "22:30",
-        sessionIds: [004]
-    }
+    # - {
+    # 	startTime: "19:20",
+    # 	endTime: "19:30",
+    # 	sessionIds: [001]
+    # }
+    # - {
+    #     startTime: "19:30",
+    #     endTime: "19:55",
+    #     sessionIds: [101]
+    # }
+    # - {
+    # 	startTime: "19:55",
+    # 	endTime: "20:00",
+    # 	sessionIds: [002]
+    # }
+    # - {
+    #     startTime: "20:00",
+    #     endTime: "20:25",
+    #     sessionIds: [102]
+    # }
+    # - {
+    #     startTime: "20:25",
+    #     endTime: "21:00",
+    #     sessionIds: [003]
+    # }
+    # - {
+    #     startTime: "21:00",
+    #     endTime: "21:25",
+    #     sessionIds: [103]
+    # }
+    # - {
+    #     startTime: "21:25",
+    #     endTime: "22:30",
+    #     sessionIds: [004]
+    # }

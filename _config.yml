@@ -10,62 +10,64 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 
 
 # Site Settings
-title: "OpenSourceBash – at wwwtf berlin, 2015"
-email: "ben@opentechschool.org"
-description: "OpenSourceBash – where projects find more members"
+title: "RustFest"
+email: "noreply@nospam.com"
+description: "Let's rust"
 baseurl: ""
-url: "https://www.opensourcebash.org/"
+url: "http://www.rustfest.eu/"
 permalink: "/blog/:title"
 googleAnalyticsTrackingId: ""
 googleAnalyticsSiteUrl: ""
 siteVerification: ""
 
 # Organizer Info
-organizerName: "Hackership"
-organizerAlternateName: "Hackership Berlin"
-organizerDescription: "self-directed learning retreat for developers in Berlin."
-organizerEmail: "team@opensourcebash.org"
-organizerLogo: "/img/seo/organizer-logo.png"
-organizerLink: "http://www.hackership.org/"
+organizerName: "Rust Community Europe e.V."
+organizerAlternateName: "RustEurope Foundation"
+organizerDescription: ""
+organizerEmail: "team"
+organizerLogo: ""
+organizerLink: "http://www.rustc.eu/"
 
 # Head
-metaKeywords: "event, wwwtfberlin, berlin, programming, opensource, developers"
-twitterAccount: "@opensourcebash"
-socialImageSrcGooglePlus: "/img/seo/sharing-google-plus.png"
+
+metaKeywords: "event, rust, rustlang, berlin, conference"
+twitterAccount: "@rustfest"
+#socialImageSrcGooglePlus: "/img/seo/sharing-google-plus.png"
 socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
-socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
+#socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
 
 # Documents
 # c4pUrl: "https://bit.ly/dfua-c4p"
-c4sponsorsUrl: "mailto:team@opensourcebash.org?subject=becoming%20a%20partner&body=Hello+Team+OpenSourceBash%2C%0D%0A%0D%0Awe+are+%0D%0A%0D%0Aand+we%27d+like+to+partner+with+you+for+the+event.+We+can+offer+%0D%0A%0D%0A%0D%0AThanks+for+getting+back+to+us"
+c4sponsorsUrl: "mailto:sponsors@rustfest.eu?subject=becoming%20a%20partner&body=Hello+Team+OpenSourceBash%2C%0D%0A%0D%0Awe+are+%0D%0A%0D%0Aand+we%27d+like+to+partner+with+you+for+the+event.+We+can+offer+%0D%0A%0D%0A%0D%0AThanks+for+getting+back+to+us"
 
 
 # Navigation
 navigationLinks:
- - {permalink: "/", text: "Home"}
- - {permalink: "/#presenting", text: "Presenting"}
- - {permalink: "/#schedule", text: "Schedule"}
- # - {permalink: "/team/", text: "Team"}
- - {permalink: "/#location", text: "Location"}
- - {permalink: "/blog/", text: "Blog"}
+ - {permalink: "/", text: "About"}
+ # - {permalink: "/#presenting", text: "Presenting"}
+ # - {permalink: "/#schedule", text: "Schedule"}
+ - {permalink: "/team/", text: "Team"}
+ - {permalink: "/code-of-conduct/", text: "Code of Conduct"}
+ - {permalink: "/accessibility/", text: "Accessibility"}
+ - {permalink: "/#latest-news", text: "News"}
  # - {permalink: "/hackathon/", text: "Hackathon"}
 bottomNavigationLinks:
  - {link: "#tickets", text: "Register Now"}
 rightNavigationButtons:
- - {link: "/apply", cls: "btn-secondary", text: "Present Project"}
+ # - {link: "/apply", cls: "btn-secondary", text: "Present Project"}
  - {link: "#tickets", text: "Register Now"}
 
 # Hero Block
 heroImage: "berlin_sunset.jpg"
-heroTitle: "want to <typeout>"
-eventDate: "OpenSourceBash Berlin, Sept 28th 2015 - 7pm"
-typeoutTextValues: '"", "hack on rust?", "improve VLC?", "join team hoodie?", "federate with diaspora?", "contribute to wheelmap?"'
-typeoutFallback: "contribute to python"
+heroTitle: "<typeout> Rust"
+eventDate: "RustFest, Berlin, Sept 17th(-18th) 2016"
+typeoutTextValues: '"", "talking", "learning", "improving", "hacking", "presenting"'
+typeoutFallback: "talking about"
 heroButtons:
  - {permalink: "/#tickets", text: "register now"}
 
 # About Block
-aboutTitle: "About OpenSourceBash"
+aboutTitle: "About RustFestEU"
 # aboutText: "<p>Each presentation consist of 5 minutes, where three minutes focus on the project and the second two cover how to onboard easiest and fastest.</p><p>There will be three batches of five talks each and breaks in between at which participants can chat with the teams and learn more about the projects and how to get involved.</p>"
 aboutBlock:
  - {title: "Presentations", image: "anouk_presents.png", text: "OpenSource teams present their project, what it is and why it matters to an audience of people interested in joining and contributing." }
@@ -91,17 +93,17 @@ rockstarSpeakersTitle: "Presenting"
 
 # Location Block
 locationBlockTitle: "Location"
-eventLocationName: "SoundCloud Ltd"
+eventLocationName: "TBD"
 eventLocationLink: "https://soundcloud.com/imprint"
-eventStreetAddress: "Rheinsberger Str. 76/77"
+eventStreetAddress: ""
 eventAddressLocality: "Berlin"
 eventAddressLocalityRegion: ""
 eventPostalCode: "10115"
 eventAddressCountry: "Germany"
-eventStartTime: "2015-09-28T19:30"
+eventStartTime: "2016-09-17"
 eventDoorTime: "19:00"
-eventEndTime: "2015-09-28T23:00"
-eventPlaceCoordinates: "52.53684, 13.39493"
+# eventEndTime: "2015-09-28T23:00"
+# eventPlaceCoordinates: "52.53684, 13.39493"
 mapCenterCoordinates: "52.53684, 13.39493"
 mapMobileCenterCoordinates: "52.53684, 13.39493"
 
@@ -132,40 +134,40 @@ subscribeAction: "http://hackership.us7.list-manage1.com/subscribe/post?u=d89377
 subscribeInfo: "Registration will be open around end of August. Number of tickets are limited. Stay tuned!"
 
 # Tickets Block
-ticketsTitle: "Join now"
-ticketsInfo: "<p>All Tickets grant access to the event, including food and drinks. Tickets are awarded 'first-come-first-serve'.<br> Reserved seating is available to women and people of marginalized groups in tech only: please use the 'waitlist feature'.</p> "
+ticketsTitle: "Tickets available soon"
+ticketsInfo: "<p>Tickets will be available soon. <a href="#subscribe">Sign up for Updates</a>!</p> "
 ticketsOffers:
- -
-  name: "Presenter"
-  price: "free"
-  priceCurrency: ""
-  ticketsNumber: ""
-  ribbon: "limited"
-  buyButtonLink: "/apply/"
-  buyButtonText: "Apply now"
-  ticketContentList: ["Apply to present your project to the audience of people interested in contributing."]
- -
-  name: "✨ Donation ✨"
-  price: "10"
-  priceCurrency: "€"
-  ticketsNumber: "100"
-  subtitle: "suggested donation"
-  ribbon: "top"
-  featured: true
-  buyButtonLink: "https://ti.to/opentechschool/opensourcebash-at-wwwtfberlin/"
-  buyButtonText: "Register now"
-  ticketContentList: ["We ask that you please donate 10€ to support the OpenTechSchool (non-profit) in running this and other code learning events in Berlin and all over the world."]
-  validFrom: "2015-09-01T00:00"
- -
-  name: "Reserved Seats"
-  price: "free"
-  priceCurrency: ""
-  ticketsNumber: "50"
-  buyButtonLink: "https://ti.to/opentechschool/opensourcebash-at-wwwtfberlin/"
-  buyButtonText: "Join Waitlist"
-  additionalInfo: "Ticket exclusively for people from groups under represented in tech."
-  ticketContentList: ["Tickets reserved for women and members of groups marginalized in tech."]
-  validFrom: "2015-09-01T00:00"
+ # -
+ #  name: "Presenter"
+ #  price: "free"
+ #  priceCurrency: ""
+ #  ticketsNumber: ""
+ #  ribbon: "limited"
+ #  buyButtonLink: "/apply/"
+ #  buyButtonText: "Apply now"
+ #  ticketContentList: ["Apply to present your project to the audience of people interested in contributing."]
+ # -
+ #  name: "✨ Donation ✨"
+ #  price: "10"
+ #  priceCurrency: "€"
+ #  ticketsNumber: "100"
+ #  subtitle: "suggested donation"
+ #  ribbon: "top"
+ #  featured: true
+ #  buyButtonLink: "https://ti.to/opentechschool/opensourcebash-at-wwwtfberlin/"
+ #  buyButtonText: "Register now"
+ #  ticketContentList: ["We ask that you please donate 10€ to support the OpenTechSchool (non-profit) in running this and other code learning events in Berlin and all over the world."]
+ #  validFrom: "2015-09-01T00:00"
+ # -
+ #  name: "Reserved Seats"
+ #  price: "free"
+ #  priceCurrency: ""
+ #  ticketsNumber: "50"
+ #  buyButtonLink: "https://ti.to/opentechschool/opensourcebash-at-wwwtfberlin/"
+ #  buyButtonText: "Join Waitlist"
+ #  additionalInfo: "Ticket exclusively for people from groups under represented in tech."
+ #  ticketContentList: ["Tickets reserved for women and members of groups marginalized in tech."]
+ #  validFrom: "2015-09-01T00:00"
 
 # Footer
 socialLinks:
@@ -175,20 +177,21 @@ socialLinks:
  - {permalink: "/feed.xml", icon: "rss"}
 footerBlocks:
  -
-  title: "Links"
+  title: "Event Notes"
   links:
-   - {link: "http://www.hackership.org", text: "Hackership"}
-   - {link: "http://www.opentechschool.org/berlin", text: "OpenTechSchool Berlin"}
-   - {link: "https://wwwtf.berlin", text: "wwwtf Berlin"}
- -
-  title: "Team Contacts"
-  links:
-   - {link: "mailto:anouk@opensourcebash.org", text: "Anouk Ruhaak"}
-   - {link: "mailto:ben@opensourcebash.org", text: "Benjamin Kampmann"}
- -
-  title: "Code of Conduct"
-  links:
-   - {permalink: "http://berlincodeofconduct.org/", text: "We operate under the <br/> Berlin Code of Conduct"}
+   - {link: "/code-of-conduct/", text: "Code of Conduct"}
+   - {link: "/accessibility/", text: "accessibility"}
+  #  - {link: "http://www.opentechschool.org/berlin", text: "OpenTechSchool Berlin"}
+  #  - {link: "https://wwwtf.berlin", text: "wwwtf Berlin"}
+ # -
+ #  title: "Team Contacts"
+ #  links:
+ #  #  - {link: "mailto:anouk@opensourcebash.org", text: "Anouk Ruhaak"}
+ #  #  - {link: "mailto:ben@opensourcebash.org", text: "Benjamin Kampmann"}
+ # -
+ #  title: "Information"
+ #  links:
+ #   - {link: "/code-of-conduct", text: "We operate under a <br/> Code of Conduct"}
 
 # Blog
 blogTitle: "Latest news"
@@ -200,7 +203,7 @@ showSessions: true
 
 # Team Block
 teamBlockTitle: "About us"
-aboutUs: "Google's services have become synonymous with simple things online. Number of technological innovations and IT industries in which Google is creating new products is enormous. It's hard to get to know all of them, but realistic. This is why people have started to gather in small local groups and share their experience. Later, the following groups have been called Google Developer Groups. GDGs can take many forms -- from just a few people getting together to watch some videos, to large gatherings with demos, tech talks, hackathons and conferences."
+aboutUs: "Team Block"
 
 # Logistics Find Way Block
 findWayTitle: "Find your way here"
